@@ -1,78 +1,51 @@
-# Exposure BTC Methodology
+# Exposure BTC — Public Methodology
 
-Exposure BTC is a quantitative Bitcoin exposure model focused on **risk control**, **regime awareness**, and **drawdown reduction**.
+Exposure BTC is a quantitative Bitcoin exposure framework focused on **risk control**, **regime awareness**, and **drawdown reduction**.
 
-It is **not** a price prediction product and it is **not** built around hype, headlines, or permanent full exposure.
+It is not a price prediction system.
 
-The core idea is simple:
+## What this is
 
-> Price can keep going up while risk rises underneath.
+Most investors stay fully exposed regardless of market conditions.
 
-Most investors interpret price strength as confirmation. Exposure BTC treats market conditions differently. It evaluates whether the environment is still structurally favorable for exposure or whether underlying risk is expanding.
+Exposure BTC is built on a different premise:
 
-## What the methodology evaluates
+> Market conditions change, and exposure should adapt accordingly.
 
-The framework combines three core components:
+The framework evaluates whether the environment is favorable or increasingly risky for disciplined exposure.
 
-1. **Trend structure**
-   - Moving-average alignment
-   - Directional persistence
-   - Distance from long-term structure
+## What it does (high level)
 
-2. **Volatility regime**
-   - Compression vs expansion
-   - Stability vs disorder
-   - Whether volatility is confirming or warning
+Exposure BTC classifies market conditions into broad regimes:
 
-3. **Risk / drawdown pressure**
-   - Historical behavior under similar conditions
-   - Structural deterioration before obvious price damage
-   - Probability that current upside is fragile rather than healthy
+- Favorable
+- Neutral
+- High risk
 
-## What the model outputs
+The objective is to improve exposure quality over time by avoiding structurally poor conditions.
 
-The full internal model is private, but the public methodology is centered on three high-level outputs:
+## What it is not
 
-- **Regime classification**: favorable, neutral, or high risk
-- **Risk level**: low, medium, or high
-- **Exposure quality**: whether conditions support disciplined exposure or demand caution
+- Not a trading signal feed  
+- Not a short-term prediction tool  
+- Not based on narratives or headlines  
 
-## Why this exists
+## Why this matters
 
-Buy-and-hold assumes all market conditions are equal.
+Large drawdowns are one of the main reasons long-term strategies fail in practice.
 
-They are not.
+Reducing time spent in high-risk conditions can have a significant impact on long-term outcomes.
 
-Exposure BTC exists to separate:
-- periods where upside is supported by structure
-- periods where investors confuse movement with opportunity
+## Public documentation
 
-## Validation philosophy
+This repository contains a **conceptual explanation only**.
 
-The framework is designed around **walk-forward thinking**, not static hindsight storytelling.
-
-Public validation claims are framed around:
-- regime detection
-- risk control
-- drawdown reduction
-- comparison against passive always-exposed behavior
-
-## Key principles
-
-- Exposure is not the same as conviction
-- Volatility expansion can increase risk even during price strength
-- Regime matters more than narrative
-- Drawdown control matters because large losses damage compounding
-
-## Repository contents
-
-- `methodology.md` — full conceptual explanation
-- `metrics.md` — validation philosophy and metrics framing
-- `faq.md` — short answers for common questions
-- `data_examples/sample_output.csv` — simple example output shape
-- `GITHUB_SETUP.md` — recommended repo name, description, topics, and launch setup
-- `DISCOVERY_LOOP.md` — GitHub → website → X loop for discoverability and conversion
+- Full methodology: see `methodology.md`
+- Evaluation and metrics: see `metrics.md`
+- Common questions: see `faq.md`
 
 ## Important note
 
-This repository explains the methodology and positioning. It does not expose the proprietary internal decision engine or paid output layer.
+This repository does not expose the proprietary internal model, thresholds, or decision logic.
+
+It exists to explain the framework and provide transparency around how market conditions are evaluated at a high level.
