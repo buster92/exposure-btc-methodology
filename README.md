@@ -1,8 +1,14 @@
 # Exposure BTC — Public Methodology
 
-Exposure BTC is a quantitative Bitcoin exposure framework focused on **risk control**, **regime awareness**, and **drawdown reduction**.
+Quantitative Bitcoin exposure framework focused on risk control, regime awareness, and drawdown reduction.
 
 It is not a price prediction system.
+
+## Example behavior
+
+![Exposure BTC vs Buy & Hold](chart.png)
+
+*Illustrative example showing reduced drawdown compared to passive exposure.*
 
 ## What this is
 
@@ -18,9 +24,9 @@ The framework evaluates whether the environment is favorable or increasingly ris
 
 Exposure BTC classifies market conditions into broad regimes:
 
-- Favorable
-- Neutral
-- High risk
+- Favorable  
+- Neutral  
+- High risk  
 
 The objective is to improve exposure quality over time by avoiding structurally poor conditions.
 
@@ -34,15 +40,15 @@ The objective is to improve exposure quality over time by avoiding structurally 
 
 Large drawdowns are one of the main reasons long-term strategies fail in practice.
 
-Reducing time spent in high-risk conditions can have a significant impact on long-term outcomes.
+Reducing time spent in high-risk conditions can have a meaningful impact on long-term outcomes.
 
 ## Public documentation
 
-This repository contains a **conceptual explanation only**.
+This repository contains a conceptual explanation only.
 
-- Full methodology: see `methodology.md`
-- Evaluation and metrics: see `metrics.md`
-- Common questions: see `faq.md`
+- Full methodology: see `methodology.md`  
+- Evaluation and metrics: see `metrics.md`  
+- Common questions: see `faq.md`  
 
 ## Important note
 

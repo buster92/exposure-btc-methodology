@@ -2,110 +2,105 @@
 
 ## 1. Objective
 
-Exposure BTC is built to improve exposure decisions in Bitcoin by evaluating whether current conditions are **structurally favorable** or **increasingly fragile**.
+Exposure BTC is designed to evaluate whether Bitcoin market conditions are structurally favorable or increasingly fragile for disciplined exposure.
 
-The objective is not to call exact tops or bottoms.
+The objective is not to predict exact price movements.
 
-The objective is to reduce time spent in poor exposure conditions, especially when:
-- price still looks strong
-- sentiment is optimistic
-- underlying risk is already rising
+The objective is to reduce time spent in environments where risk is elevated, even if price continues to rise.
 
 ## 2. Conceptual framework
 
-The model treats market conditions as a **regime problem**, not just a direction problem.
+The framework treats market behavior as a **regime problem**, not just a directional problem.
 
-A rising market can still become lower quality if:
-- volatility starts expanding
-- trend strength weakens
-- drawdown pressure rises
-- price becomes increasingly disconnected from healthy structure
+A market can move upward while becoming less stable underneath.  
+This distinction is central.
 
-That distinction matters because many bad entries happen after price has already advanced.
+Most investors respond to price.  
+Exposure BTC evaluates the **quality of the environment behind the price**.
 
-## 3. Core components
+## 3. Core approach
 
-### A. Trend structure
+The methodology evaluates multiple dimensions of market behavior simultaneously.
 
-Trend is assessed through structural variables rather than headlines.
+Instead of relying on isolated signals, it focuses on whether conditions remain:
 
-Examples of the type of information considered:
-- short-term and long-term moving-average relationship
-- slope persistence
-- price location relative to long-term structure
-- spread behavior between trend measures
+- consistent
+- stable
+- supportive of disciplined exposure
 
-The point is not "price is up" but whether the uptrend remains orderly and supported.
-
-### B. Volatility regime
-
-Volatility is treated as a major truth signal.
-
-Broad interpretation:
-- **Compression** can indicate orderly structure
-- **Expansion** can indicate instability, transition, or elevated downside risk
-
-This matters because a market can continue rising while volatility behavior becomes less healthy underneath.
-
-### C. Risk / drawdown pressure
-
-The framework attempts to identify when upside becomes lower quality.
-
-Examples of the type of risk evidence considered:
-- drawdown behavior under comparable conditions
-- structural deterioration before full trend failure
-- mismatch between visible price strength and hidden fragility
-
-This is one of the central ideas behind Exposure BTC:
-a market can appear strong to the eye while becoming weaker in exposure quality.
+When behavior becomes less consistent or more unstable, the framework interprets that as a deterioration in exposure quality.
 
 ## 4. Regime classification
 
-Publicly, the methodology can be summarized into three broad states:
+The framework groups conditions into three broad regimes:
 
 ### Favorable
-Conditions are aligned enough that exposure quality is relatively strong.
+Conditions are sufficiently stable and aligned to support exposure.
 
-Typical traits:
-- supportive trend structure
-- controlled volatility
-- limited visible structural stress
+Typical characteristics:
+- orderly market behavior
+- consistency across observations
+- limited signs of structural stress
 
 ### Neutral
-Signals are mixed.
+Conditions are mixed or transitioning.
 
-Typical traits:
-- trend not fully broken, but no longer clean
-- volatility not catastrophic, but not confirming either
-- risk begins to rise without a complete breakdown
+Typical characteristics:
+- partial deterioration in structure
+- reduced clarity
+- increasing uncertainty
 
 ### High risk
-Conditions suggest poor exposure quality.
+Conditions indicate reduced exposure quality.
 
-Typical traits:
-- volatility expansion
-- weakening structure
-- greater risk that recent price action is misleading rather than supportive
+Typical characteristics:
+- instability in behavior
+- loss of structural consistency
+- higher likelihood of unfavorable outcomes
 
-## 5. What the model is not
+## 5. Interpretation layer
+
+The methodology is designed to interpret **behavioral patterns**, not individual indicators.
+
+It focuses on questions such as:
+
+- Is the market becoming less stable?
+- Are conditions still aligned or starting to diverge?
+- Is risk increasing beneath apparent strength?
+
+These interpretations are made without relying on a single variable or trigger.
+
+## 6. What the model is not
 
 Exposure BTC is not:
-- a hype-driven price prediction engine
-- a promise of perfect top/bottom timing
-- a system that claims certainty
 
-It is a discipline framework for **exposure management under uncertainty**.
+- a price prediction system  
+- a short-term trading signal generator  
+- a deterministic model with fixed rules visible publicly  
 
-## 6. Practical philosophy
+It is a framework for evaluating exposure conditions under uncertainty.
 
-The methodology is built around a simple belief:
+## 7. Practical philosophy
 
-> Avoiding bad exposure periods can matter as much as capturing good ones.
+The methodology is built on a simple principle:
 
-That is why drawdown control, regime detection, and structural caution are central to the product.
+> Avoiding poor exposure conditions can be as important as participating in favorable ones.
 
-## 7. Public vs private layer
+This is why the framework prioritizes:
+- stability
+- consistency
+- risk awareness
 
-This repository intentionally describes the conceptual layer only.
+over short-term price movements.
 
-The full internal system includes proprietary implementation details, thresholds, weighting, and decision logic that are not public.
+## 8. Public vs private layer
+
+This document describes the conceptual approach only.
+
+The internal implementation, including:
+- signal construction
+- weighting
+- thresholds
+- decision logic
+
+remains private.
